@@ -98,7 +98,7 @@ main .banner {
     font-size: 24px;
     font-weight: 600;
     color: white;
-    background-image: url(../imgs/details/blues-banner.png);
+    background-image: url(./details/blues-banner.png);
     background-repeat: no-repeat;
     background-size: 180px;
     background-position: center;

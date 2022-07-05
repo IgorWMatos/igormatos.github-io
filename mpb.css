@@ -98,7 +98,7 @@ main .banner {
     font-size: 22px;
     font-weight: 600;
     color: white;
-    background-image: url(../imgs/details/mpb-banner.png);
+    background-image: url(./details/mpb-banner.png);
     background-repeat: no-repeat;
     background-size: 160px;
     background-position: center;

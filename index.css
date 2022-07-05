@@ -96,7 +96,7 @@ main .first-section {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url(../imgs/bg-img.jpg);
+    background-image: url(./bg-img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: overlay;

@@ -98,7 +98,7 @@ main .banner {
     font-size: 22px;
     font-weight: 600;
     color: white;
-    background-image: url(../imgs/details/jazz-banner.png);
+    background-image: url(./details/jazz-banner.png);
     background-repeat: no-repeat;
     background-size: 200px;
     background-position: center;
