@@ -95,7 +95,7 @@ main .content {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../imgs/11-apple-music.gif);
+    background-image: url(./11-apple-music.gif);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
