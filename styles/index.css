@@ -263,7 +263,7 @@ main .second-section button:hover {
 main .second-section button:active {
     transform: scale(1.03);
     color: #000;
-    border: 2   px solid #8dc100;
+    border: 2px solid #8dc100;
     transition: 0.1s;
 }
 
