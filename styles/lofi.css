@@ -83,12 +83,27 @@ header .second-section li:hover {
 }
 
 header .second-section a:hover {
-    color: #cb1e40;
+    color: #e00b36;
+    font-weight: 700;
 }
 
 header .second-section span {
     color: white;
 }
+
+header .second-section ul li a::before{
+    content:'';
+    background: #8dc100;
+    position:absolute;
+    width: 0%;
+    bottom:-5px;
+    height:5px;
+    transition: 0.3s;
+  }
+  
+header .second-section ul li a:hover::before{
+   width: 100%;
+  }
 
 main .banner {
     height: 19vh;
@@ -178,6 +193,11 @@ footer .first-name h2 {
 
 footer .first-name img {
     padding: 10px;
+    transition: 0.2s ease-in-out;
+}
+
+footer .first-name img:hover {
+    transform: scale(1.5);
 }
 
 footer .credits {

@@ -83,12 +83,27 @@ header .second-section li:hover {
 }
 
 header .second-section a:hover {
-    color: #cb1e40;
+    color: #e00b36;
+    font-weight: 700;
 }
 
 header .second-section span {
     color: white;
 }
+
+header .second-section ul li a::before{
+    content:'';
+    background: #8dc100;
+    position:absolute;
+    width: 0%;
+    bottom:-5px;
+    height:5px;
+    transition: 0.3s;
+  }
+  
+header .second-section ul li a:hover::before{
+   width: 100%;
+  }
 
 main .first-section {
     display: flex;
@@ -153,6 +168,7 @@ main .first-section button:hover {
 main .first-section button:active {
     transform: scale(1.03);
     color: #000;
+    border: 2px solid #cb1e40;
     transition: 0.1s;
 }
 
@@ -247,6 +263,7 @@ main .second-section button:hover {
 main .second-section button:active {
     transform: scale(1.03);
     color: #000;
+    border: 2   px solid #8dc100;
     transition: 0.1s;
 }
 
@@ -276,6 +293,11 @@ footer .first-name h2 {
 
 footer .first-name img {
     padding: 10px;
+    transition: 0.2s ease-in-out;
+}
+
+footer .first-name img:hover {
+    transform: scale(1.5);
 }
 
 footer .credits {
